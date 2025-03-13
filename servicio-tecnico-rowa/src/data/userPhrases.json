@@ -1,0 +1,86 @@
+[
+  {
+    "nombre": "Juan Sarmiento",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Rápida solución a mi problema, lo solucionaron muy rápido y quedó diez puntos."
+  },
+  {
+    "nombre": "María Velázquez",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Buena atención, rápido trabajo y cambiando lo necesario, todo funcionando. Perfecto."
+  },
+  {
+    "nombre": "Carlos Santamaría",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Muy buena atención!!. Todo diez puntos y muy buena predisposición para trabajar."
+  },
+  {
+    "nombre": "Lucía Aguirre",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Muy amables y profesionales, los llamé y tuve la solución en el día, totalmente agradecido."
+  },
+  {
+    "nombre": "Martín Rosales",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "¡La verdad, un laburo de diez! Resolvieron todo perfecto."
+  },
+  {
+    "nombre": "Elena Méndez",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Atención de primera, ¡no podría estar más contenta!"
+  },
+  {
+    "nombre": "Diego Cabrera",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Me atendieron rapidísimo y dejaron todo impecable."
+  },
+  {
+    "nombre": "Ana Solís",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Un servicio de calidad, súper profesionales y amables."
+  },
+  {
+    "nombre": "Felipe Vázquez",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Solucionaron mi problema en un día, ¡estoy re agradecido!"
+  },
+  {
+    "nombre": "Valeria Núñez",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Un equipo de primera, realmente saben lo que hacen."
+  },
+  {
+    "nombre": "Tomás Gómez",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Trato excelente y laburo bien hecho, ¡los recomiendo al 100%!"
+  },
+  {
+    "nombre": "Elena Soto",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Una respuesta rápida y efectiva, ¡no puedo pedir más!"
+  },
+  {
+    "nombre": "Pablo Herrera",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Todo solucionado sin complicaciones, ¡gracias por la ayuda!"
+  },
+  {
+    "nombre": "Luciana Paredes",
+    "cantidad_estrellas": 5,
+    "imagen_usuario": "https://via.placeholder.com/50",
+    "frase": "Los mejores en plomería, ¡no duden en llamarlos!"
+  }
+]
