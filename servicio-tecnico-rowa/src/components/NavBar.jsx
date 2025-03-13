@@ -6,21 +6,24 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
+    // Clases de los Link
+    const linkClasses = "block py-8 font-bold text-center transition duration-300 rounded hover:bg-bgHoverButtonNavBar";
+
     return (
-        <nav className="bg-customGrey">
+        <nav className="bg-bgNavBar">
             <div className="flex items-center justify-between px-4 py-4">
                 <button
-                    className="ml-auto text-customWhite focus:outline-none md:hidden"
+                    className="ml-auto text-textNavBar focus:outline-none md:hidden"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="w-8 h-8" />
                 </button>
 
-                <ul className="flex-row hidden w-full md:flex text-customWhite font-inter">
+                <ul className="flex-row hidden w-full md:flex text-textNavBar font-dm">
                     <li className="flex-1">
                         <Link
                             to="/"
-                            className="block py-8 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
+                            className={linkClasses}
                         >
                             Inicio
                         </Link>
@@ -28,7 +31,7 @@ const NavBar = () => {
                     <li className="flex-1">
                         <Link
                             to="/rowa"
-                            className="block py-8 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
+                            className={linkClasses}
                         >
                             Reparación de Bombas Rowa
                         </Link>
@@ -36,7 +39,7 @@ const NavBar = () => {
                     <li className="flex-1">
                         <Link
                             to="/plomeria"
-                            className="block py-8 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
+                            className={linkClasses}
                         >
                             Plomería
                         </Link>
@@ -44,7 +47,7 @@ const NavBar = () => {
                     <li className="flex-1">
                         <Link
                             to="/calefon-termotanque"
-                            className="block py-8 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
+                            className={linkClasses}
                         >
                             Calefón / Termotanque
                         </Link>
@@ -57,11 +60,11 @@ const NavBar = () => {
                 className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
                     } overflow-hidden`}
             >
-                <ul className="flex flex-col text-customWhite font-inter">
+                <ul className="flex flex-col text-textNavBar font-dm">
                     <li>
                         <Link
                             to="/"
-                            className="block py-4 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
+                            className={linkClasses}
                             onClick={() => setIsOpen(false)}
                         >
                             Inicio
@@ -70,7 +73,7 @@ const NavBar = () => {
                     <li>
                         <Link
                             to="/rowa"
-                            className="block py-4 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
+                            className={linkClasses}
                             onClick={() => setIsOpen(false)}
                         >
                             Reparación de Bombas Rowa
@@ -79,7 +82,7 @@ const NavBar = () => {
                     <li>
                         <Link
                             to="/plomeria"
-                            className="block py-4 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
+                            className={linkClasses}
                             onClick={() => setIsOpen(false)}
                         >
                             Plomería
@@ -88,7 +91,7 @@ const NavBar = () => {
                     <li>
                         <Link
                             to="/calefon-termotanque"
-                            className="block py-4 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
+                            className={linkClasses}
                             onClick={() => setIsOpen(false)}
                         >
                             Calefón / Termotanque

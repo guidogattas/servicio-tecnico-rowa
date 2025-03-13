@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
+
+    const currentYear = new Date().getFullYear();
     return (
         <footer className='flex flex-col items-center justify-around gap-8 py-10 text-white md:flex-row md:py-20 bg-customGrey'>
             <div className='flex items-center gap-4 text-3xl'>
@@ -20,7 +22,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className='self-center text-center'>
-                Copyright 2024
+                Copyright {currentYear}
             </div>
         </footer>
     );

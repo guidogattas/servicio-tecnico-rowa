@@ -27,8 +27,8 @@ const WhatsApp = ({ showText = true }) => {
             </a>
             {showText && (
                 <div className='flex flex-col'>
-                    <p className='text-white font-xbold text-md md:text-xl font-inter'>{phoneNumberWA}</p>
-                    <p className='text-sm text-white md:text-lg font-inter'>Contactanos por WhatsApp</p>
+                    <p className='text-white font-xbold text-md md:text-xl font-dm'>{phoneNumberWA}</p>
+                    <p className='text-sm text-white md:text-lg font-dm'>Contactanos por WhatsApp</p>
                 </div>
             )}
         </div>

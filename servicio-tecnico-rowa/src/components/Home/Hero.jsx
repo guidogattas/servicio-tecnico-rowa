@@ -19,7 +19,7 @@ const Hero = () => {
                     transition={{ type: "spring", stiffness: 50, damping: 10 }}
                 >
                     <h1>
-                        TU SERVICE YA
+                        Servicio Técnico Rowa
                     </h1>
                 </motion.h1>
                 <motion.p
