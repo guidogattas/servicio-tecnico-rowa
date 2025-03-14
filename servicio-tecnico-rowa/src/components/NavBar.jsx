@@ -15,16 +15,16 @@ const NavBar = () => {
     ];
 
     // Clases de los Link
-    const linkClasses = "block py-6 text- font-bold text-center transition duration-300 rounded hover:bg-bgHoverButtonNavBar w-full";
+    const linkClasses = "block py-6 text-lg text-logoColor font-bold text-center transition duration-300 rounded hover:text-textNavBar hover:bg-bgHoverButtonNavBar w-full";
 
     return (
-        <nav className="bg-bgNavBar">
+        <nav className="">
             <div className="flex md:text-sm lg:text-lg items-center justify-between ">
                 <button
                     className="ml-auto text-textNavBar focus:outline-none md:hidden"
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="w-6 h-6 px-4 py-4" />
+                    <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="w-6 h-6 px-4 py-4 text-logoColor" />
                 </button>
 
                 {/* Menú de escritorio */}

@@ -9,9 +9,13 @@ module.exports = {
         customGrey: "#1F1F1F",
         customOrange: "#D54700",
         customWhite: "#e6e6e6",
+        mainText:  "#e6e6e6",
+        textHover:  "#1F1F1F",
         bgNavBar: "#89D6BE",
         textNavBar: "#1F1F1F",
         bgHoverButtonNavBar: "#99E6BE",
+        bgWhatsAppBar: "#3b3b3b",
+        logoColor: "#99E6BE"
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
