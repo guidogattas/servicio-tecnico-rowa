@@ -5,14 +5,14 @@ import WhatsApp from '../../WhatsApp.jsx';
 const Header = () => {
     return (
         <>
-            <section className='flex flex-col md:flex-row justify-around md:px-4 md:py-4 animated-bg text-customWhite font-dm font-bold text-[24px]'>
+            <section className='flex flex-col md:flex-row justify-around  md:py-4 animated-bg text-customWhite font-dm font-bold text-[24px]'>
                 <div className='flex justify-center'>
                     <Link to="/"> 
                     <img className='md:max-h-[100px]' src="\images\Logo.png" alt="Logo Tu Service Ya" />
                     </Link>
-                    <img className='hidden md:block ml-4 md:max-h-[80px]' src="\images\bombas_rowa - copia.png" alt="Logo Tu Service Ya" />
+                    <img className='hidden md:block ml-4 md:max-h-[80px]' src="\images\bombas_rowa-new.png" alt="Logo Tu Service Ya" />
                 </div>
-            <NavBar />
+                <NavBar />  
             </section>
                 {/* <div className='flex items-center gap-3 text-3xl bg-bgWhatsAppBar items-center justify-center'>
                     <WhatsApp showText={true} />

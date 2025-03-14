@@ -8,10 +8,10 @@ const NavBar = () => {
 
     // Datos de las rutas
     const routes = [
-        { path: '/', label: 'Inicio' },
-        { path: '/rowa', label: 'Reparación de Bombas Rowa' },
-        { path: '/plomeria', label: 'Plomería' },
-        { path: '/calefon-termotanque', label: 'Calefón / Termotanque' }
+        // { path: '/', label: 'INICIO' },
+        { path: '/rowa', label: 'BOMBAS ROWA' },
+        { path: '/plomeria', label: 'PLOMERÍA' },
+        { path: '/calefon-termotanque', label: 'CALEFÓN / TERMOTANQUE' }
     ];
 
     // Clases de los Link
@@ -28,7 +28,7 @@ const NavBar = () => {
                 </button>
 
                 {/* Menú de escritorio */}
-                <ul className="flex-row hidden w-full md:flex md:py-2 text-textNavBar font-dm items-center justify-center">
+                <ul className="flex-row gap-2 hidden w-full md:flex  text-textNavBar font-dm items-center justify-center">
                     {routes.map(route => (
                         <li key={route.path} className="flex-1">
                             <Link to={route.path} className={linkClasses}>
