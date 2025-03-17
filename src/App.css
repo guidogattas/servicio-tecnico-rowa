@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", system-ui, sans-serif;
+  }
+    body {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* Animación de fondo */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-bg {
+  background: linear-gradient(70deg, #5a5959, #3b3b3b, #5a5959);
+  background-size: 300% 300% !important;
+  animation: gradientMove 8s ease infinite !important;
+}
+
+/* Animación de spinner */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+/* Animación de pulso */
+@keyframes heartPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Un poco más grande */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-heart {
+  animation: heartPulse 1.5s ease-in-out infinite;
+}

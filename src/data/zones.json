@@ -1,0 +1,60 @@
+{
+  "zonasCABA": [
+    "Palermo",
+    "Recoleta",
+    "Belgrano",
+    "Caballito",
+    "San Telmo",
+    "La Boca",
+    "Villa Urquiza",
+    "Nuñez",
+    "Flores",
+    "Avellaneda",
+    "San Nicolás",
+    "Retiro",
+    "Almagro",
+    "Balvanera",
+    "Chacarita",
+    "Colegiales",
+    "Barracas",
+    "Paternal",
+    "Villa Devoto",
+    "Villa del Parque"
+  ],
+  "zonaNorte": [
+    "San Isidro",
+    "Vicente López",
+    "Tigre",
+    "San Fernando",
+    "Escobar",
+    "Pilar",
+    "San Martín",
+    "José C. Paz",
+    "Malvinas Argentinas",
+    "San Miguel"
+  ],
+  "zonaSur": [
+    "Avellaneda",
+    "Lanús",
+    "Quilmes",
+    "Berazategui",
+    "Lomas de Zamora",
+    "Esteban Echeverría",
+    "Ezeiza",
+    "Florencio Varela",
+    "Almirante Brown",
+    "San Vicente"
+  ],
+  "zonaOeste": [
+    "Morón",
+    "Ituzaingó",
+    "Castelar",
+    "Hurlingham",
+    "El Palomar",
+    "San Antonio de Padua",
+    "Merlo",
+    "José C. Paz",
+    "Ramos Mejía",
+    "La Matanza"
+  ]
+}
